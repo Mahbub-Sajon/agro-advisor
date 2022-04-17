@@ -13,7 +13,7 @@ const Navigation = () => {
            <div className='md:flex justify-center'>
            <img className=' rounded-md w-16 h-16' src={img} alt="" />
             
-           <nav className={`md:flex justify-center bg-lime-200 w-full duration-500 ease-in absolute md:static ${open ? 'top-6' : 'top-[-120px]'}`}>
+           <nav className={`md:flex justify-center bg-lime-200 w-full duration-500 ease-in absolute md:static ${open ? 'top-6' : 'top-[-140px]'}`}>
                 <div className='mr-16'><CustomLink to="/">HOME</CustomLink></div>
                <div className='mr-16'> <CustomLink to="/blogs">BLOGS</CustomLink></div>
                <div className='mr-16'> <CustomLink to="/checkout">CHECK-OUT</CustomLink></div>
