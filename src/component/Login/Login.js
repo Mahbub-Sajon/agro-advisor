@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import img from '../../images/social/google.png'
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -54,7 +55,7 @@ const Login = () => {
                </div>
                <p className='text-red-800'>{error?.message}</p>
 
-            <input className='w-32 h-12 bg-green-400 rounded-md mb-4 font-bold hover:bg-lime-500 cursor-pointer' type="submit" value="Login" />
+            <input className='w-32 h-12 bg-green-400 rounded-md mb-4 font-bold hover:bg-green-600 cursor-pointer' type="submit" value="Login" />
 
 
           </form>
@@ -62,7 +63,7 @@ const Login = () => {
          
          
           <p className='mb-4 text-xl'>
-              Don't have any account? <Link className='text-green-400 hover:text-lime-500' to="/signup"> Create an account</Link>
+              Don't have any account? <Link className='text-green-400 hover:text-green-600' to="/signup"> Create an account</Link>
           </p>
           <div className='flex justify-between'>
               <p className='block w-1/3 h-0.5 ml-20 mt-2  bg-black'>
@@ -76,7 +77,14 @@ const Login = () => {
               </p>
           </div>
 
-          <button>Sign</button>
+          <div>
+          <button className='flex mx-auto  mb-4 w-2/3 h-12 rounded-md  bg-green-400 hover:bg-green-600'>
+             <div className='mx-auto my-auto flex'>
+             <img style={{width:'20px'}} src={img} alt="" />
+              <span className='ml-2'>Google Sign In</span>
+             </div>
+              </button>
+          </div>
 
 
            
