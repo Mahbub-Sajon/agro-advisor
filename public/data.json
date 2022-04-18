@@ -1,0 +1,37 @@
+[
+    {
+      "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+      "name": "Common Diseases For Paddy Crops",
+      "price": 2500,
+      "description": "Thirteen diseases including bacterial blight, bacterial leaf streak, sheath blight etc are classified as major diseases for paddy. I personally give solution to these types of diseases to the farmers",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT83N1s4S1093L6mdZ86md__AjMi4xT_Qqmu42OVk7PB-2lONHZ_z1O6JhsiAIbboQ0vY4&usqp=CAU"
+    },
+    {
+      "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+      "name": "Best Time For Harvesting Mustard",
+      "price": 2000,
+      "description": "Rapeseed and mustard are popularly called 'Mustard' which is a leading oilseed crop, produced largely in Bangladesh. But sadly everyone doesn't know the perfect time to harvest mustard. So I would like to give advices about these through my services.",
+      "img": "https://thefinancialexpress.com.bd/uploads/1611296228.jpg"
+    },
+    {
+      "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+      "name": "Right Way To Process Jute",
+      "price": 4000,
+      "description": "Jute is a long, soft, shiny bast fiber that can be spun into coarse, strong threads. From the jute fiber rope, bags, sharees etc are made. It is very important to know the right way to process jute. As an AGRO-ADVISOR I provide these information to the farmers.",
+      "img": "https://www.researchgate.net/profile/Taimur-Al-Mobarak/publication/321756571/figure/fig5/AS:570790521589765@1513098473496/Jute-plant-Fig310-Scheme-of-jute-fiber-structure-Jute-fiber-is-obtained-from-two.png"
+    },
+    {
+      "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+      "name": "Right Soil For Vegetable Production",
+      "price": 8000,
+      "description": "Vegetable farming is the growing of vegetables for human consumption. It is very important to know that which soil is perfect for growing the vegetables. So I am providing information about the soil whether it is perfect for growing vegetables or not after testing the soil in my lab.",
+      "img": "https://media.istockphoto.com/photos/man-holding-crate-ob-fresh-vegetables-picture-id870915532?b=1&k=20&m=870915532&s=170667a&w=0&h=W5ertLCY5jqt94-o3Q4ak05dXZzzcrJGp_UsBrRw8Ds="
+    },
+    {
+      "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+      "name": "Summer Fruit Production",
+      "price": 5000,
+      "description": "Summer is the perfect time for having some sweet, delicious fruits. But unfortunately there are some obstacles for growing fruit like insects, virus and etc. So here I am giving advices about how a farmer should grow his fruits during summer time.",
+      "img": "https://www.ugaoo.com/knowledge-center/wp-content/uploads/2017/05/shutterstock_124517170.jpg"
+     
+    }]
