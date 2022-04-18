@@ -6,6 +6,7 @@ import CheckOut from './component/CheckOut/CheckOut';
 import Home from './component/Home/Home';
 import Login from './component/Login/Login';
 import Navigation from './component/Navigation/Navigation';
+import NotFound from './component/NotFound/NotFound';
 import RequireAuth from './component/RequireAuth/RequireAuth';
 import SignUp from './component/SignUp/SignUp';
 
@@ -24,6 +25,7 @@ function App() {
        <Route path="/signup" element={<SignUp></SignUp>}></Route>
        <Route path="/login" element={<Login></Login>}></Route>
        <Route path="/about" element={<About></About>}></Route>
+       <Route path='*' element={<NotFound></NotFound>}></Route>
      </Routes>
     </div>
   );
