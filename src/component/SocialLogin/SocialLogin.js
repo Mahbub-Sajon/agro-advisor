@@ -6,7 +6,7 @@ import img from '../../images/social/google.png'
 
 
 const SocialLogin = () => {
-    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
 
     if (error) {

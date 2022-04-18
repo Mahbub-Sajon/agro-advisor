@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
@@ -14,6 +14,10 @@ const Login = () => {
         user,
         error
       ] = useSignInWithEmailAndPassword(auth);
+
+      const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
+
       const navigate = useNavigate();
 
       const location = useLocation();
@@ -34,6 +38,11 @@ const Login = () => {
     const handleUserSignIn = event => {
         event.preventDefault();
         signInWithEmailAndPassword(email,password);
+    }
+
+    const resetPassword = async() => {
+        await sendPasswordResetEmail(email);
+        alert('Please Check Your Mail To Reset Password');
     }
 
 
@@ -65,6 +74,13 @@ const Login = () => {
           <p className='mb-4 text-xl'>
               Don't have any account? <Link className='text-green-400 hover:text-green-600' to="/signup"> Create an account</Link>
           </p>
+
+
+          <p className='mb-4 text-xl'>
+              Forgot Password? <Link className='text-green-400 hover:text-green-600' to="/signup" onClick={resetPassword}> Reset Password</Link>
+          </p>
+
+
           <div className='flex justify-between'>
               <p className='block w-1/3 h-0.5 ml-20 mt-2  bg-black'>
                   <hr />
