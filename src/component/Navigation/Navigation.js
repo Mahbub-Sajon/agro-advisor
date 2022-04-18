@@ -27,7 +27,7 @@ const Navigation = () => {
                 <div className='mr-16'><CustomLink to="/signup">SIGNUP</CustomLink></div>
                 {
                     user? 
-                    <button onClick={handleSignOut}>sign out</button>
+                    <button className='mr-16 my-auto' onClick={handleSignOut}>SIGNOUT</button>
                     :
                     <div className='mr-16'><CustomLink to="/login">LOGIN</CustomLink></div>
                 }
