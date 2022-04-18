@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
-import img from '../../images/social/google.png'
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -78,12 +78,7 @@ const Login = () => {
           </div>
 
           <div>
-          <button className='flex mx-auto  mb-4 w-2/3 h-12 rounded-md  bg-green-400 hover:bg-green-600'>
-             <div className='mx-auto my-auto flex'>
-             <img style={{width:'20px'}} src={img} alt="" />
-              <span className='ml-2'>Google Sign In</span>
-             </div>
-              </button>
+              <SocialLogin></SocialLogin>
           </div>
 
 
