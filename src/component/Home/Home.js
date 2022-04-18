@@ -13,7 +13,7 @@ const Home = () => {
             <h1 className='text-lime-800 text-3xl font-bold pb-4'>My Services</h1>
            <div className='grid md:grid-cols-3 mb-10 gap-6'>
                {
-                  services.slice(0,3).map(service => <HomeServices
+                  services.map(service => <HomeServices
                   key={service.id}
                   service = {service}
                   ></HomeServices>) 

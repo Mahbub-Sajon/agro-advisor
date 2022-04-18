@@ -4,21 +4,21 @@
       "name": "Common Diseases For Paddy Crops",
       "price": 2500,
       "description": "Thirteen diseases including bacterial blight, bacterial leaf streak, sheath blight etc are classified as major diseases for paddy. I personally give solution to these types of diseases to the farmers",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT83N1s4S1093L6mdZ86md__AjMi4xT_Qqmu42OVk7PB-2lONHZ_z1O6JhsiAIbboQ0vY4&usqp=CAU"
+      "img": "https://news.cgtn.com/news/2020-12-16/China-discovers-earliest-and-largest-rice-paddy-fields-in-the-world-WgnsFkxq12/img/06dd48b969084ab19f8e40fb83e5ab76/06dd48b969084ab19f8e40fb83e5ab76-1920.png"
     },
     {
       "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
       "name": "Best Time For Harvesting Mustard",
       "price": 2000,
       "description": "Rapeseed and mustard are popularly called 'Mustard' which is a leading oilseed crop, produced largely in Bangladesh. But sadly everyone doesn't know the perfect time to harvest mustard. So I would like to give advices about these through my services.",
-      "img": "https://thefinancialexpress.com.bd/uploads/1611296228.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sunset_at_Mustard_Field.jpg"
     },
     {
       "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
       "name": "Right Way To Process Jute",
       "price": 4000,
       "description": "Jute is a long, soft, shiny bast fiber that can be spun into coarse, strong threads. From the jute fiber rope, bags, sharees etc are made. It is very important to know the right way to process jute. As an AGRO-ADVISOR I provide these information to the farmers.",
-      "img": "https://www.researchgate.net/profile/Taimur-Al-Mobarak/publication/321756571/figure/fig5/AS:570790521589765@1513098473496/Jute-plant-Fig310-Scheme-of-jute-fiber-structure-Jute-fiber-is-obtained-from-two.png"
+      "img": "https://thumbs.dreamstime.com/b/green-jute-rice-plant-field-jute-rice-cultivation-assam-india-green-jute-rice-plant-field-jute-154953428.jpg"
     },
     {
       "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
@@ -33,5 +33,13 @@
       "price": 5000,
       "description": "Summer is the perfect time for having some sweet, delicious fruits. But unfortunately there are some obstacles for growing fruit like insects, virus and etc. So here I am giving advices about how a farmer should grow his fruits during summer time.",
       "img": "https://www.ugaoo.com/knowledge-center/wp-content/uploads/2017/05/shutterstock_124517170.jpg"
+     
+    },
+    {
+      "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+      "name": "Taking Care of Personal Garden",
+      "price": 5500,
+      "description": "For some people it is a pleasure to make their own garden. Having various types of trees over there. I can perfectly guide them how they should take care of their garden.",
+      "img": "https://www.lovethispic.com/uploaded_images/62591-English-Flower-Garden.jpg"
      
     }]
