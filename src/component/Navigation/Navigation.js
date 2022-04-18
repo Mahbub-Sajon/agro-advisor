@@ -2,9 +2,16 @@ import React, { useState } from 'react';
 import CustomLink from '../CustomLink/CustomLink';
 import {MenuIcon, XIcon} from '@heroicons/react/solid'
 import img from '../../images/agro.jpg'
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
+import { signOut } from 'firebase/auth';
 
 const Navigation = () => {
     const [open, setOpen] = useState(false);
+    const [user] = useAuthState(auth);
+    const handleSignOut = () =>{
+        signOut(auth);
+    }
     return (
         <div  className='bg-lime-200 p-4'>
             <div onClick={() => setOpen(!open)} className='w-6 h-6 md:hidden'>
@@ -18,8 +25,14 @@ const Navigation = () => {
                <div className='mr-16'> <CustomLink to="/blogs">BLOGS</CustomLink></div>
                <div className='mr-16'> <CustomLink to="/checkout">CHECK-OUT</CustomLink></div>
                 <div className='mr-16'><CustomLink to="/signup">SIGNUP</CustomLink></div>
-                <div className='mr-16'><CustomLink to="/login">LOGIN</CustomLink></div>
+                {
+                    user? 
+                    <button onClick={handleSignOut}>sign out</button>
+                    :
+                    <div className='mr-16'><CustomLink to="/login">LOGIN</CustomLink></div>
+                }
                <div className='mr-16'> <CustomLink to="/about">ABOUT</CustomLink></div>
+               {}
             </nav>
            </div>
         </div>
