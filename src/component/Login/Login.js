@@ -11,7 +11,7 @@ const Login = () => {
     const [
         signInWithEmailAndPassword,
         user,
-        error,
+        error
       ] = useSignInWithEmailAndPassword(auth);
       const navigate = useNavigate();
 
